@@ -1,0 +1,131 @@
+.form-main {
+    text-align: center;
+    margin: 2px;
+}
+
+.form {
+    padding: 15px;
+    margin-right: 25px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--color-white);
+    margin: 0;
+}
+
+.container {
+    max-width: 540px;
+    width: 100%;
+    margin: 3.125rem auto 0 auto;
+}
+
+h1,
+p {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    text-align: centre;
+    font-family: 'Roboto Slab', serif;
+    /* text-align: center; */
+}
+
+h1 {
+    font-weight: 400;
+    line-height: 1.2;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-align: center;
+}
+
+#description {
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.text-center {
+    text-align: center;
+}
+
+button {
+    border: none;
+}
+
+form {
+    background: #f0f0f0;
+    padding: 2.5rem;
+    border-radius: 0.25rem;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 2.375rem;
+    padding: 0.375rem 0.75rem;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    margin: 6px;
+}
+
+.form-group {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+}
+
+.input-radio,
+.input-checkbox {
+    display: inline-block;
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+}
+
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background: rgb(168, 214, 206);
+    color: inherit;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: #c5d5c5;
+    /* background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)); */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.input-textarea {
+    min-height: 120px;
+    width: 100%;
+    padding: 0.625rem;
+    resize: vertical;
+}
+.carousel-inner{
+    transition: 0.5s;
+}
